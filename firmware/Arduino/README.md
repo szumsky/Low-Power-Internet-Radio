@@ -1,0 +1,1 @@
+Kod do użytku z Arduino IDE

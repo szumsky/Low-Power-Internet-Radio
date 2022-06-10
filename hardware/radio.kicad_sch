@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid b3362b72-6dea-4e18-94e8-95c1d4f14bf1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Radio internetowe i niskim poborze mocy" (at 187.96 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1231280e-1bf4-4146-aa67-ee538aa156a4)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
