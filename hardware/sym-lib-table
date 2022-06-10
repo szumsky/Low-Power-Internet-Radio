@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "scalaki")(type "KiCad")(uri "${KIPRJMOD}/scalaki.kicad_sym")(options "")(descr ""))
+)
