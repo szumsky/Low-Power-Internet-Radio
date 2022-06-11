@@ -12,6 +12,12 @@
     (property "Datasheet" "" (id 3) (at 7.62 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_keywords" "10451, OLED, SPI, I2C, SH1106" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Waveshare SH1106 1.3inch OLED, SPI/I2C interfaces, straight/vertical pinheader" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "OLED(B)_0_0"
       (pin input line (at 1.27 7.62 270) (length 2.54)
         (name "DIN" (effects (font (size 1.27 1.27))))
