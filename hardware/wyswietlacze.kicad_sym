@@ -6,7 +6,7 @@
     (property "Value" "OLED(B)" (id 1) (at -6.35 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 7.62 -5.08 0)
+    (property "Footprint" "wyswietlacze:waveshare_oled" (id 2) (at 13.97 -7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 7.62 -5.08 0)

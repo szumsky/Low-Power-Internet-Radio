@@ -726,7 +726,7 @@
   )
 
 
-  (text "Radio internetowe i niskim poborze mocy" (at 187.96 190.5 0)
+  (text "Radio internetowe o niskim poborze mocy" (at 187.96 190.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1231280e-1bf4-4146-aa67-ee538aa156a4)
   )
