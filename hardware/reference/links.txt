@@ -1,0 +1,5 @@
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/index.html
+https://randomnerdtutorials.com/latching-power-switch-circuit-auto-power-off-circuit-esp32-esp8266-arduino/
+http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/electronic-circuits/push-button-switch-turn-on/microcontroller-latching-on-off
+https://circuitdigest.com/tutorial/bi-directional-logic-level-controller-using-mosfet
+https://www.maximintegrated.com/en/design/technical-documents/app-notes/3/3283.html
