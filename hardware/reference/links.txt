@@ -3,3 +3,4 @@ https://randomnerdtutorials.com/latching-power-switch-circuit-auto-power-off-cir
 http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/electronic-circuits/push-button-switch-turn-on/microcontroller-latching-on-off
 https://circuitdigest.com/tutorial/bi-directional-logic-level-controller-using-mosfet
 https://www.maximintegrated.com/en/design/technical-documents/app-notes/3/3283.html
+https://circuitjournal.com/arduino-auto-power-off
