@@ -3791,7 +3791,7 @@
     (property "Value" "TestPoint" (id 1) (at 153.67 184.6579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 156.21 186.69 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" (id 2) (at 156.21 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 156.21 186.69 0)
@@ -4380,7 +4380,7 @@
     (uuid 6eb0ce94-6235-4154-a551-0d7ecb6dedfa)
     (property "Reference" "L1" (id 0) (at 228.6 22.86 90))
     (property "Value" "2.2u" (id 1) (at 228.6 25.4 90))
-    (property "Footprint" "wyswietlacze:L_2010Metric" (id 2) (at 228.6 29.21 0)
+    (property "Footprint" "wyswietlacze:DJNR6028-2R2-S" (id 2) (at 228.6 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 228.6 29.21 0)
@@ -4389,7 +4389,7 @@
     (property "Current" "3A" (id 4) (at 228.6 29.21 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sklep" "https://www.mouser.pl/ProductDetail/Bourns/SRP2010TMA-2R2M?qs=sGAEpiMZZMv126LJFLh8yyP1h6mULV5nk26puzcRhPw%3D" (id 5) (at 228.6 29.21 90)
+    (property "Sklep" "https://www.tme.eu/pl/details/djnr6028-2r2-s/dlawiki-smd-mocy/ferrocore/" (id 5) (at 228.6 29.21 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 21232ca7-7ba9-4f34-8a97-f9fdc86b8717))
@@ -5123,7 +5123,7 @@
     (property "Value" "TestPoint" (id 1) (at 167.64 184.6579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 170.18 186.69 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" (id 2) (at 170.18 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 186.69 0)
@@ -5226,7 +5226,7 @@
   (symbol (lib_id "power:GND") (at 158.75 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f73179c7-64e4-4f62-9c58-7c3400f3435c)
-    (property "Reference" "#PWR?" (id 0) (at 158.75 198.12 0)
+    (property "Reference" "#PWR0115" (id 0) (at 158.75 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 158.75 196.85 0))
@@ -5374,6 +5374,9 @@
     (path "/6f5e002f-ed07-43fc-a0fc-2c6d739051ab"
       (reference "#PWR0114") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/f73179c7-64e4-4f62-9c58-7c3400f3435c"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ec09260e-946a-4d95-8812-f92989b6ac9f"
       (reference "#PWR0116") (unit 1) (value "+5V") (footprint "")
     )
@@ -5400,9 +5403,6 @@
     )
     (path "/0c98ec6d-5605-4ae5-b17f-f4dc21bdc12f"
       (reference "#PWR0124") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/f73179c7-64e4-4f62-9c58-7c3400f3435c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/31276b67-1ce3-42d3-a55d-ef9419463436"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -5477,7 +5477,7 @@
       (reference "J5") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/6eb0ce94-6235-4154-a551-0d7ecb6dedfa"
-      (reference "L1") (unit 1) (value "2.2u") (footprint "wyswietlacze:L_2010Metric")
+      (reference "L1") (unit 1) (value "2.2u") (footprint "wyswietlacze:DJNR6028-2R2-S")
     )
     (path "/6b5ab209-e7a1-41de-b505-26afad5fe72f"
       (reference "Q1") (unit 1) (value "Q_PMOS_DGS") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -5579,10 +5579,10 @@
       (reference "SW6") (unit 1) (value "SW_3") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
     )
     (path "/25c71baa-00a8-4ec2-be04-656a7bf9cecb"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm")
     )
     (path "/e9301eb0-4603-469f-9fe6-01969d48b33c"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm")
     )
     (path "/a274958a-ae53-4989-b48b-9f41b3964f32"
       (reference "U1") (unit 1) (value "TP4056") (footprint "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm")
