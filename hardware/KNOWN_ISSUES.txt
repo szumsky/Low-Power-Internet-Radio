@@ -1,0 +1,14 @@
+This file refers to the errors made when designing the PCB and found during the prototyping phase. The errors are listed and marked on the schematic.
+
+1. MOSFET PINOUT
+The wrong KiCad symbol has been used for the MOSFETs. The symbols on the schematic use the DGS pinout, where the most common MOSFET pinout is GSD. This means that probably any transistor you can get would have to be rotated on the footprint for the pinout to match.
+
+2. OLED INPUT ONLY PINS
+The pins IO34, IO35, IO36 and IO39 are input only. The signals connected IO34 and IO35 are OLED's SPI MOSI and clock lines, which are output signals and therefore do not work in this configuration. The signals have to be moved to different pins.
+
+3. ADC PINS
+The ADC input pin is connected to the IO2 pin, which cannot be used for the ADC when the Wi-Fi driver is active.
+For more information see: https://docs.espressif.com/projects/esp-idf/en/v4.2/esp32/api-reference/peripherals/adc.html
+
+4. BOOT PULL-UP
+The IO0 pin is supposed to have an internal pull-up resistor but in our case it didn't seem to behave as expected. Adding a 10k pull-up resistor to the BOOT switch helped.
