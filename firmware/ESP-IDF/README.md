@@ -1,1 +1,0 @@
-Kod do użytku z ESP-IDF
