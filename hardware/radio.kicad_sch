@@ -5249,7 +5249,7 @@
     (property "Footprint" "wyswietlacze:waveshare_oled" (at 267.97 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 267.97 104.14 0)
+    (property "Datasheet" "https://www.waveshare.com/1.3inch-oled-b.htm" (at 267.97 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "5" (uuid 7a2e827d-d9d6-447a-91b5-b6bc5c6ea35f))
